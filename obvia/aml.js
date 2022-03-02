@@ -1,3 +1,5 @@
+import { rjs } from "./lib/rjs";
+
 var flowerCM = window.flowerCM || {};
 //base Components
 rjs.define("lib/Poolable.js", "Poolable");
