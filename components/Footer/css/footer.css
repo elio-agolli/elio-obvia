@@ -1,0 +1,53 @@
+/* stili per footerin */
+ .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;   
+    height: 60px;
+    background: #003cb3;
+   
+} 
+
+/* pergjegjes per stilizimin e label */
+.label1{
+padding-top: 10px;
+margin-left: 50px;
+color: blanchedalmond;
+}
+
+/* pergjegjes per stilizimin e input text */
+.textInput1{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: black;
+}
+
+/* pergjegjes per stilizimin e butoni dergo */
+.button1{
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: #e7e7e7; /* Green */
+  border: none;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+}
+.button1:hover {
+    background-color: white; /* Green */
+    color: black;
+  }
+
+  /* pergjegjes per stilizimin e link-ut */
+.link1{
+   float:right;
+   margin-top: 20px;
+   margin-right: 50px;
+   color: gold;
+}
+.link1:hover{
+  color:black;
+}
