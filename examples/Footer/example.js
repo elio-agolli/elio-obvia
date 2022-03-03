@@ -40,7 +40,7 @@ var myFooter = new Footer({
                 ctor: Link,
                 props: {
                     id: 'fa',
-                    label: "© 2021 Kreatx",
+                    label: "© 2022 Kreatx",
                     href: "https://www.kreatx.com/",
                     target: "_blank",
                     classes: ['link1']

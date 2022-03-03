@@ -77,11 +77,11 @@ var myWizard = new Wizard({
                                     type: ContainerType.NONE,
                                     classes: ["form-group"],
                                     components: [{
-                                            ctor: Label,
+                                            ctor: Image,
                                             props: {
-                                                id: "company-name",
-                                                labelType: LabelType.Label,
-                                                label: "Limiti i debise",
+                                                id: "elio-image",
+                                                alt: "My Image",
+                                                src: "https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924241/8fbb415a2ab2a4de55bb0c8da73c4172--ps.jpg"
                                             }
                                         },
                                         {

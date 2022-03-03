@@ -239,7 +239,9 @@ rjs.define("./components/Footer/css/footer.css", "footer");
 rjs.define("./components/Header/Header.js", "Header");
 rjs.define("./components/Header/Header.css", "header");
 
-
+//Rating
+rjs.define("./components/Rating/Rating.js", "Rating");
+rjs.define("./components/Rating/Rating.css", "rating");
 
 rjs.define("lib/yaml.js", "yaml");
 rjs.define("./lib/ApiClientGen/ApiClient.js", "ApiClient");

@@ -1,6 +1,5 @@
 .header{
-    position: absolute;
-    top: 10px;
+    position: static;
     background-color: grey;
     color: black;
     width: 100%;
