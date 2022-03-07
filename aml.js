@@ -432,7 +432,8 @@ let dependencies = [
         "yaml",
         "ApiClient",
         "ApiClientGen",
-        "OAMethod"
+        "OAMethod",
+        "Rating"
     ]
 ];
 rjs.grequire(dependencies).then(() => {

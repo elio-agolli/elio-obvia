@@ -5,3 +5,7 @@
 .fa-star{
     cursor: pointer;
 }
+
+.rating-header{
+    margin-bottom: 5px;
+}

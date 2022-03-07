@@ -35,7 +35,7 @@ var Rating = function (_props, _hideComponents = false) {
 
 this.template = function () {
     return "<div id='" + this.domID + "' class='rating'>" +
-        "<p>Your Rating</p>" +
+        "<p class='rating-header'>Product Rating</p>" +
         "<span class='fa fa-star'></span>" +
         "<span class='fa fa-star'></span>" +
         "<span class='fa fa-star'></span>" +
