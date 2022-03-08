@@ -3,6 +3,7 @@ examples/.DS_Store
 .DS_Store
 .vscode/settings.json
 .idea/.name
+.idea
 .idea/Flower_UI.iml
 .idea/encodings.xml
 .idea/misc.xml
