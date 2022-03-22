@@ -144,19 +144,19 @@ var myWizard = new Wizard({
             ctor: Container,
             props: {
                 attr: { "step": "Step 2", "details": "Te pergjithshme" },
-                id: "container-row",
+                id: "container_row",
                 type: ContainerType.ROW,
                 classes: ["row"],
                 components: [{
                         ctor: Container,
                         props: {
-                            id: "col-container",
+                            id: "col_container",
                             type: ContainerType.COLUMN,
                             classes: ["col-4"],
                             components: [{
                                 ctor: Container,
                                 props: {
-                                    id: "form-group",
+                                    id: "form_group",
                                     type: ContainerType.NONE,
                                     classes: ["form-group"],
                                     components: [{
@@ -164,13 +164,13 @@ var myWizard = new Wizard({
                                             props: {
                                                 id: "company-name",
                                                 labelType: LabelType.Label,
-                                                label: "Kodi*",
+                                                label: "Emri i kompanise*",
                                             }
                                         },
                                         {
                                             ctor: Container,
                                             props: {
-                                                id: "input-field",
+                                                id: "input_field",
                                                 type: ContainerType.NONE,
                                                 classes: ["input-field"],
                                                 components: [{
@@ -178,7 +178,7 @@ var myWizard = new Wizard({
                                                         props: {
                                                             id: "user",
                                                             labelType: LabelType.i,
-                                                            classes: ["fa", "fa-info"],
+                                                            classes: ["fa", "fa-user"],
 
                                                         }
                                                     },
@@ -187,8 +187,9 @@ var myWizard = new Wizard({
                                                         props: {
                                                             id: "email-input",
                                                             type: TextInputType.EMAIL,
-                                                            placeholder: "ex:0800 123 4568",
+                                                            placeholder: "Emri i kompanise",
                                                             classes: ["form-control"]
+
                                                         }
                                                     }
                                                 ]
@@ -213,11 +214,11 @@ var myWizard = new Wizard({
                                     type: ContainerType.NONE,
                                     classes: ["form-group"],
                                     components: [{
-                                            ctor: Label,
+                                            ctor: Image,
                                             props: {
-                                                id: "company-name",
-                                                labelType: LabelType.Label,
-                                                label: "Gjendja e celur",
+                                                id: "elio-image",
+                                                alt: "My Image",
+                                                src: "https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924241/8fbb415a2ab2a4de55bb0c8da73c4172--ps.jpg"
                                             }
                                         },
                                         {
@@ -226,7 +227,7 @@ var myWizard = new Wizard({
                                             props: {
                                                 id: "email-input",
                                                 type: TextInputType.EMAIL,
-                                                placeholder: "Gjendja e celur",
+                                                placeholder: "Limiti i debise",
                                                 classes: ["form-control"]
 
                                             }
@@ -235,7 +236,6 @@ var myWizard = new Wizard({
                                 }
                             }]
                         }
-
                     },
                     {
                         ctor: Container,
@@ -254,7 +254,7 @@ var myWizard = new Wizard({
                                             props: {
                                                 id: "company-name",
                                                 labelType: LabelType.Label,
-                                                label: "Zona*",
+                                                label: "Gjendja e monedhes vendase",
                                             }
                                         },
                                         {
@@ -263,7 +263,7 @@ var myWizard = new Wizard({
                                             props: {
                                                 id: "email-input",
                                                 type: TextInputType.EMAIL,
-                                                placeholder: "Zona",
+                                                placeholder: "Gjendja e monedhes vendase",
                                                 classes: ["form-control"]
                                             }
 

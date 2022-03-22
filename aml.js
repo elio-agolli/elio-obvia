@@ -239,9 +239,13 @@ rjs.define("./components/Footer/css/footer.css", "footer");
 rjs.define("./components/Header/Header.js", "Header");
 rjs.define("./components/Header/Header.css", "header");
 
-//Rating
+//percaktoj komponentin Rating
 rjs.define("./components/Rating/Rating.js", "Rating");
 rjs.define("./components/Rating/Rating.css", "rating");
+
+//percaktoj komponentin Carousel Slider
+rjs.define("./components/CarouselSlider/CarouselSlider.js", "CarouselSlider");
+rjs.define("./components/CarouselSlider/CarouselSlider.css", "carouselSlider");
 
 rjs.define("lib/yaml.js", "yaml");
 rjs.define("./lib/ApiClientGen/ApiClient.js", "ApiClient");
@@ -251,6 +255,8 @@ rjs.define("./lib/ApiClientGen/OAMethod.js", "OAMethod");
 let dependencies = [
     ["EventDispatcher"],
     [
+        "Rating",
+        "CarouselSlider",
         "Poolable",
         "Timer",
         "AutoObject",
@@ -433,7 +439,8 @@ let dependencies = [
         "ApiClient",
         "ApiClientGen",
         "OAMethod",
-        "Rating"
+        "rating",
+        "carouselSlider"
     ]
 ];
 rjs.grequire(dependencies).then(() => {
