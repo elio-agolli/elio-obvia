@@ -146,7 +146,11 @@ var CarouselSlider = function (_props, _hideComponents = false) {
     };
 
     let _defaultParams = {
+        type: ContainerType.CONTAINER,
+        "components": [],
+        classes: [""],
     };
+
     _props = extend(false, false, _defaultParams, _props);
 
 
